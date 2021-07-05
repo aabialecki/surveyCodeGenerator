@@ -10,7 +10,7 @@ This program will generate the code for a simple python survey based on a list o
 
 
 #Question_format
-
+```py
 question = {  "question_text":question_text,  - the question to ask the user
               "choices":choices"}             - specify restrictions on user input and responses to that input, set to None if not in use
 
@@ -18,3 +18,4 @@ each value in the choices dictionary is an array, new questions and responses ar
 choices = {   "questions":[questions],        - new questions to ask user
               "responses":[responses],        - responses to user answers
               "options":[options]}            - the options the user is allowed to answer with
+```
