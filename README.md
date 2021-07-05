@@ -1,5 +1,5 @@
 # surveyCodeGenerator
-This program will generate the code for a simple python survey based on a list of questions and options. Currently there is no system for inputting survey details so it must be done seperatly, the format for questions is layed out below.
+This program will generate the code for a simple python survey based on a list of questions and options. Currently there is no system for inputting survey details so it must be done seperatly, the format for questions is layed out below. See example_code_generated.py for the code generated using the q1_info question in codegen.py
 
 
 ## Usage
