@@ -1,15 +1,15 @@
-## surveyCodeGenerator
+# surveyCodeGenerator
 This program will generate the code for a simple python survey based on a list of questions and options. Currently there is no system for inputting survey details so it must be done seperatly, the format for questions is layed out below.
 
 
-# Usage
+## Usage
 * in codegen.main() you can put your questions into the list questions = []
 * each question in the list must follow the format layed out in question_format below
 * Running the program will generate code in a seperate code.py file
 * once generated it will run the program and save user responses in a seperate file
 
 
-# Question_format
+## Question_format
 ```py
 question = {  "question_text":question_text,  #- the question to ask the user
               "choices":choices"}             #- specify restrictions on and responses to user input, set to None if not in use
